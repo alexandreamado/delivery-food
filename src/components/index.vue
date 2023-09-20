@@ -67,6 +67,7 @@
     <Populardinner></Populardinner>
     <RichQuality></RichQuality>
     <BigOffer></BigOffer>
+    <Menucardapio></Menucardapio>
   </div>
 </template>
 
@@ -76,6 +77,7 @@ import Header from "./Header.vue";
 import Populardinner from './Populardinner.vue';
 import RichQuality from './RichQuality.vue'
 import BigOffer from './BigOffer.vue';
+import Menucardapio from './Menucardapio.vue';
 
 const img_one = ref(false)
 const showImg_one = () => {
