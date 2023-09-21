@@ -13,7 +13,7 @@
               <span class="text-primaria-clr">BURGER</span> FAST FOOD
             </h1>
             <div class="flex">
-              <img src="../assets/image1.png" width="438"  alt="" />
+              <img src="../assets/image1.png" width="438" alt="" />
               <!-- <img v-if="img_one" src="../assets/image2.png" width="438"  alt="" />
               <img src="../assets/image3.png" width="438"  alt="" />
               <img src="../assets/image4.png" width="438"  alt="" /> -->
@@ -45,8 +45,8 @@
 
         <div class="flex justify-center items-center gap-4">
           <span
-          @click="showImg_one"
-          class="cursor-pointer h-[20px] w-[20px] border-[2px] border-primaria-clr rounded-full transition-all"
+            @click="showImg_one"
+            class="cursor-pointer h-[20px] w-[20px] border-[2px] border-primaria-clr rounded-full transition-all"
           ></span>
 
           <span
@@ -64,25 +64,33 @@
         </div>
       </div>
     </div>
-    <Populardinner></Populardinner>
-    <RichQuality></RichQuality>
-    <BigOffer></BigOffer>
-    <Menucardapio></Menucardapio>
+    <Populardinner />
+    <RichQuality />
+    <BigOffer />
+    <Menucardapio />
+    <MenuSpecial />
+    <OurRestaurant />
+    <Delivery />
+    <TheBest />
+    <testemunhes />
   </div>
 </template>
 
 <script setup>
-import {ref} from 'vue'
+import { ref } from "vue";
 import Header from "./Header.vue";
-import Populardinner from './Populardinner.vue';
-import RichQuality from './RichQuality.vue'
-import BigOffer from './BigOffer.vue';
-import Menucardapio from './Menucardapio.vue';
+import Populardinner from "./Populardinner.vue";
+import RichQuality from "./RichQuality.vue";
+import BigOffer from "./BigOffer.vue";
+import Menucardapio from "./Menucardapio.vue";
+import MenuSpecial from "./MenuSpecial.vue";
+import OurRestaurant from "./OurRestaurant.vue";
+import Delivery from "./Delivery.vue";
+import TheBest from "./TheBest.vue"
+import testemunhes from "./testemunhes.vue"
 
-const img_one = ref(false)
+const img_one = ref(false);
 const showImg_one = () => {
-  img_one.value = !img_one.value
-}
-
-
+  img_one.value = !img_one.value;
+};
 </script>
