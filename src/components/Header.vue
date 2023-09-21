@@ -1,10 +1,9 @@
 <template>
   <div
-    class="flex justify-between items-center px-[6%] py-[6px] h-[35px] bg-primaria-clr"
-  >
+    class="flex justify-between items-center px-[6%] py-[6px] h-[35px] bg-primaria-clr">
     <div class="flex gap-[8rem]">
-      <div>
-        <i class="fa fa-clock mx-4 text-pure-white text-[12px]"></i>
+      <div class="">
+        <i class="fa lg:text-xl fa-clock mx-4 text-pure-white text-[12px]"></i>
         <span class="text-pure-white text-[12px]">7:30 AM - 9:30PM</span>
       </div>
       <div>

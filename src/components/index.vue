@@ -73,6 +73,7 @@
     <Delivery />
     <TheBest />
     <testemunhes />
+    <Footer />
   </div>
 </template>
 
@@ -88,6 +89,7 @@ import OurRestaurant from "./OurRestaurant.vue";
 import Delivery from "./Delivery.vue";
 import TheBest from "./TheBest.vue"
 import testemunhes from "./testemunhes.vue"
+import Footer from "./Footer.vue";
 
 const img_one = ref(false);
 const showImg_one = () => {
