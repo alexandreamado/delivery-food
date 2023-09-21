@@ -15,8 +15,7 @@
             Jacinto Marques
           </h1>
           <p
-            class="w-[430px] text-center h-[72px] text-secondary-clr text-[18px]"
-          >
+            class="w-[430px] text-center h-[72px] text-secondary-clr text-[18px]">
             Also very good and so was the service. I had the mushroom risotto
             with scallops which was awesome. My wife had a burger over greens
             ...
