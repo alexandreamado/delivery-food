@@ -1,7 +1,7 @@
 <template>
   <div class="bg-3-third-color px-[6%] py-[6px]">
     <div
-      class="flex flex-col items-center max-sm:relative max-sm:bottom-[20rem]">
+      class="flex flex-col items-center">
       <p class="text-[20px] font-bold">Food Items</p>
       <h1 class="text-[35px] text-primaria-clr font-bold max-sm:text-[24px]">Popular Dishes</h1>
       <div
